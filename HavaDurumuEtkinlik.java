@@ -6,7 +6,7 @@ public class HavaDurumuEtkinlik {
 
         Scanner inp = new Scanner(System.in);
 
-        System.out.print("Hava sıcaklığı: ");
+        System.out.print("Hava sıcaklığı(°C) : ");
         heat = inp.nextInt();
 
         if (heat < 5) {
