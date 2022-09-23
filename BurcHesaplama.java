@@ -18,7 +18,7 @@ public class BurcHesaplama {
 
         switch (month) {
             case 1:
-                if (day >= 1 && day < 31) {
+                if (day >= 1 && day <= 31) {
                     if (day < 22) {
                         burc = "Oğlak";
                     } else {
@@ -30,7 +30,7 @@ public class BurcHesaplama {
                 break;
 
             case 2:
-                if (day >= 1 && day < 28) {
+                if (day >= 1 && day <= 29) {
                     if (day < 20) {
                         burc = "Kova";
                     } else {
@@ -42,7 +42,7 @@ public class BurcHesaplama {
                 break;
 
             case 3:
-                if (day >= 1 && day < 31) {
+                if (day >= 1 && day <= 31) {
                     if (day < 21) {
                         burc = "Balık";
                     } else {
@@ -54,7 +54,7 @@ public class BurcHesaplama {
                 break;
 
             case 4:
-                if (day >= 1 && day < 30) {
+                if (day >= 1 && day <= 30) {
                     if (day < 21){
                         burc = "Koç";
                     } else {
@@ -66,7 +66,7 @@ public class BurcHesaplama {
                 break;
 
             case 5:
-                if (day >= 1 && day < 31) {
+                if (day >= 1 && day <= 31) {
                     if (day < 22) {
                         burc = "Boğa";
                     } else {
@@ -78,7 +78,7 @@ public class BurcHesaplama {
                 break;
 
             case 6:
-                if (day >= 1 && day < 30) {
+                if (day >= 1 && day <= 30) {
                     if (day < 23) {
                         burc = "İkizler";
                     } else {
@@ -90,7 +90,7 @@ public class BurcHesaplama {
                 break;
 
             case 7:
-                if (day >= 1 && day < 31) {
+                if (day >= 1 && day <= 31) {
                     if (day < 23) {
                         burc = "Yengeç";
                     } else {
@@ -102,7 +102,7 @@ public class BurcHesaplama {
                 break;
 
             case 8:
-                if (day >= 1 && day < 31){
+                if (day >= 1 && day <= 31){
                     if (day < 23) {
                         burc = "Aslan";
                     } else {
@@ -114,7 +114,7 @@ public class BurcHesaplama {
                 break;
 
             case 9:
-                if (day >= 1 && day < 30) {
+                if (day >= 1 && day <= 30) {
                     if (day < 23) {
                         burc = "Başak";
                     } else {
@@ -126,7 +126,7 @@ public class BurcHesaplama {
                 break;
 
             case 10:
-                if (day >= 1 && day < 31) {
+                if (day >= 1 && day <= 31) {
                     if (day < 23) {
                         burc = "Terazi";
                     } else {
@@ -138,7 +138,7 @@ public class BurcHesaplama {
                 break;
 
             case 11:
-                if (day >= 1 && day < 30) {
+                if (day >= 1 && day <= 30) {
                     if (day < 22) {
                         burc = "Akrep";
                     } else {
@@ -150,7 +150,7 @@ public class BurcHesaplama {
                 break;
 
             case 12:
-                if (day >= 1 && day < 31) {
+                if (day >= 1 && day <= 31) {
                     if (day < 22) {
                         burc = "Yay";
                     } else {
